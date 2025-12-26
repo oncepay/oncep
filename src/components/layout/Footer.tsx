@@ -125,7 +125,7 @@ export default function Footer() {
         <div className="border-t border-primary-light py-4 sm:py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 DIGITAL CSC TECHNOLOGY PRIVATE LIMITED. All rights reserved.
+              © 2024 FENTRA INFRATECH PRIVATE LIMITED. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4 sm:mt-0">
               <Link to="/privacy" className="text-primary-foreground/60 hover:text-accent text-sm transition-colors">

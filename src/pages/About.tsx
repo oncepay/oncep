@@ -139,34 +139,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">Meet Our Team</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our experienced leadership team brings decades of expertise in fintech, 
-              engineering, and customer success.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <Card key={index} className="hover-lift bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200">
-                <CardContent className="p-8 text-center">
-                  <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-white">{member.name.charAt(0)}</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">{member.name}</h3>
-                  <p className="text-blue-600 font-medium mb-4">{member.role}</p>
-                  <p className="text-sm text-gray-600 leading-relaxed">{member.bio}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Values */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
